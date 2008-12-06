@@ -10,19 +10,18 @@
 	<body>
 		<div id="doc" class="yui-t5">
 			<div id="hd">
-				<div id="logo"><a href="/"><img src="images/interface/logo.jpg" alt="Panoramic - Templating for kicks" /></a></div>
-				<div id="nav" class="v-chrome">
+				<div id="logo">
+					<h1><a href="/">Panoramic Template</a></h1>
+					<p id="company-slogan">Templating style</p>
+				</div><!-- /#logo -->
+				<div id="nav" class="rounded-corners">
 					<div class="hd"></div>
-					<ul class="bd v-chrome-bd">
+					<ul class="bd">
 						<li class="selected"><a href="/">Home</a></li>
 						<li><a href="/about/">About Us</a></li>
 						<li><a href="/products/">Products</a></li>
 						<li class="last"><a href="/contact/">Contact Us</a></li>
 					</ul>
-					<div class="ft"><div class="bgnd">    
-				     <!--up         --><u class="w"></u><u class="e"></u>
-				      <!--in-between --><i class="w"></i><i class="e"></i>
-				      <!--bottom     --><b class="w"></b><b class="e"></b>					</div>
 				</div>
 			</div>
 			<div id="bd">
@@ -30,7 +29,7 @@
 					<div class="yui-b">
 						<div class="yui-g">
 							<div id="content">
-								<h1>Just to get you started</h1>
+								<h2>Just to get you started</h2>
 								<p><a href="http://wwww.yahoo.com/s/969928"><img width="154" height="115" alt="Stratotanker refueling a plane (NPR/JJ Sutherland)" src="http://l.yimg.com/a/i/ww/news/2008/10/13/101308plane.jpg"/></a>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce orci lorem, convallis ac, imperdiet eu, lacinia sed, erat. In hac habitasse platea dictumst. Maecenas tincidunt, lorem sit amet gravida tempus, elit orci <a href="#">accumsan enim</a>, quis facilisis leo nunc aliquet mauris. <strong>Vivamus nec neque</strong>. Duis euismod. Vivamus aliquet ante et quam. Aenean hendrerit sem et neque. Fusce tortor. Sed enim tortor, rutrum at, <em>facilisis vel</em>, elementum at, erat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
 								<p>Sed sollicitudin dictum nisl. Aliquam <a href="#">pulvinar interdum dolor</a>. In faucibus tempor tortor. Suspendisse potenti. Phasellus et nunc. Ut vitae augue. Vestibulum at leo in augue dignissim posuere. Donec dignissim purus nec dolor. Donec ac <strong>quam id quam pulvinar</strong> blandit. Suspendisse ultrices nulla sit amet mauris. Pellentesque faucibus nunc et tellus. Mauris placerat tellus vel ipsum. Ut augue lacus, consequat pulvinar, aliquet et, pulvinar a, velit. Nullam ligula velit, mollis non, dignissim et, volutpat a, purus.</p>
@@ -107,18 +106,19 @@ Vestibulum at leo in augue dignissim posuere.</code>
 											<form id="respond" method="post" action="#">
 												<p>
 													<input type="text" tabindex="1" size="22" value="" id="author" name="author"/>
-													<label for="author"><small>Name (required)</small></label>
+													<label for="author"><span class="help-text">Name (required)</span></label>
 												</p>
 												<p>
 													<input type="text" tabindex="2" size="22" value="" id="email" name="email"/>
-													<label for="email"><small>Mail (will not be published) (required)</small></label>
+													<label for="email"><span class="help-text">Mail (will not be published) (required)</span></label>
 												</p>
 												<p>
 													<input type="text" tabindex="3" size="22" value="" id="url" name="url"/>
-													<label for="url"><small>Website</small></label>
+													<label for="url"><span class="help-text">Website</span></label>
 												</p>
 												<p>
-													<small><strong>XHTML:</strong> You can use these tags: <!--><abbr title=""> <acronym title=""> <b> <blockquote cite=""> <cite> <code> <del datetime=""> <em> <i> <q cite=""> <strike> <strong> </small>-->
+													<strong>XHTML:</strong> You can use these tags:
+													<span id="comment-tags">&lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt;</span>
 												</p>
 												<p>
 													<textarea tabindex="4" rows="10" id="comment" name="comment"></textarea>
@@ -162,7 +162,8 @@ Vestibulum at leo in augue dignissim posuere.</code>
 			<div id="ft">
 				<ul>
 					<li>&copy; James Broad 2008</li>
-					<li><a href="http://www.carbonsilk.com">Design by Carbon Silk</a><!-- Leave this here --></li>
+					<li><!-- Leave this here --><a href="http://www.carbonsilk.com">Design by Carbon Silk</a><!-- Leave this here --></li>
+				</ul>
 			</div>
 		</div>
 	</body>

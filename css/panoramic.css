@@ -1,36 +1,58 @@
 html{
 	background:#2C5F98;
 }
+
 body{
 	height:100%;
 	background:#2C5F98 url('../images/interface/gradient.gif') repeat-x top;
 }
 
+/*	Logo	*/
+	
+	
+/*	Headings	*/
 
-#bd{
-   clear:both;
-   background:#fff no-repeat top left;
+#logo{
+	background:url(../images/interface/logo.jpg) no-repeat;
+	padding-left:40px;
 }
+	#logo *{
+		color:#fff;
+	}
+	
+	#logo h1{
+		font-size:123.1%;
+		margin-bottom:0px;
+		letter-spacing:-1px;
+		font-family:verdana, arial, sans-serif;
+	}
+	
+		#logo h1 a{
+			text-decoration:none;
+		}
+			#logo h1 a:hover;{
+				text-decoration:underline;
+			}
+	
+	#logo #company-slogan{
+		color:#2b5e96;
+	}
 
-#bd p{
-	font-size:0.9em;
-	line-height:1.7em;
-	margin-bottom:1.7em;
-}
 
-h1{
+h2{
    color:#ff6c00;
    font-size:1.2em;
    margin-bottom:1em;
 }
 
-h2{
+h3{
    color:#ff6c00;
-   font-size:1.5em;
+   font-size:100%;
+   font-weight:bold;
    margin-bottom:1em;
 }
 
-h3{
+h4{
 	font-weight:bold;
 	font-size:92%;
 	padding:1em 0 0.5em;
@@ -38,6 +60,14 @@ h3{
 	border-bottom:1px solid #f1f1f1;
 }
 
+.rounded-corners{
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-border-radius: 5px;
+}
+
+/*	Body Text	*/
+	
 strong{
 	font-weight:bold;
 }
@@ -46,24 +76,38 @@ em{
 	font-style:italic;
 }
 
-#bd a{
-	color:#2C5F98;
-}
-#bd a:visited{
-	color:#091D46;
+#bd{
+   clear:both;
+   background:#fff no-repeat top left;
 }
 
-#bd ul{
-	padding-left:15px;
-}
-#bd ul li{
-	margin-bottom:5px;
-}
-	#bd ul,
-	#bd ul li
-	{
-		list-style-type:circle;
+	#bd p{
+		font-size:93%;
+		line-height:1.8em;
+		margin-bottom:1.7em;
 	}
+
+	#bd a{
+		color:#2C5F98;
+	}
+	
+	#bd a:visited{
+		color:#091D46;
+	}
+
+	#bd ul{
+		padding-left:15px;
+	}
+	
+	#bd ul li{
+		margin-bottom:5px;
+	}
+	
+		#bd ul,
+		#bd ul li
+		{
+			list-style-type:circle;
+		}
 
 #content img{
 	float:left;
@@ -71,10 +115,14 @@ em{
 	margin-bottom:15px;
 }
 
+/*	Header	*/
+
 #hd{
    padding:3em 0 0 0;
    background:url('../images/interface/clouds.jpg') no-repeat right top;
 }
+
+/*	Content	*/
 
 #content{
 	padding:3em;
@@ -84,19 +132,23 @@ em{
 	padding:3em;
 	padding-left:0;
 }
-#extra-info h2,
-#extra-info h3
-{
-	color:#5F5F5F;
-}
-#extra-info ul{
-	margin-bottom:1em;
-}   
+
+	#extra-info h2,
+	#extra-info h3
+	{
+		color:#5F5F5F;
+	}
+	
+	#extra-info ul{
+		margin-bottom:1em;
+	}   
+
 /**
  * Site nav is a DIV that holds the ul.
  *
  * Why? for allowing horizontal scale for the background gradient
  */
+
 #nav{
    margin:48px 0 10px 0;
    background:url('../images/interface/navigation-bg.gif') repeat-x;
@@ -106,6 +158,7 @@ em{
       margin:0;
       padding:0;
       min-height:34px;
+
    }
    #nav a{
       color:#fff;
@@ -199,7 +252,11 @@ em{
 		        list-style:none;
 		        font-size:1em;
 		    }
-		        #comments .comment .metadata{
+		        #comments .help-text{
+					font-size:85%;
+				}
+				
+				#comments .comment .metadata{
 
 		        }
 
@@ -229,3 +286,10 @@ em{
 		        float:none;
 		        margin:0;
 		    }
+		
+			#comment-tags{
+				font-size:85%;
+				color:#444;
+				margin-bottom:5px;
+				margin-top:-10px;
+			}
