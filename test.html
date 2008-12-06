@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head profile="http://gmpg.org/xfn/11">
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    	<title>
+        Moneyio - The best salary calculator ever! -         Carbon Silk - Developing ideas by James Broad</title>	
+    	<meta name="generator" content="WordPress 2.5" /> <!-- leave this for stats please -->
+    	<link rel="stylesheet" type="text/css" href="http://www.carbonsilk.com/wp-content/themes/carbonsilk/yui/2.5.1/build/reset/reset-min.css" /> 
+    	<style type="text/css" media="screen">
+    		@import url( css/test.css );
+    	</style>
+    	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.carbonsilk.com/feed/" />
+
+    	<link rel="alternate" type="text/xml" title="RSS .92" href="http://www.carbonsilk.com/feed/rss/" />
+    	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.carbonsilk.com/feed/atom/" />
+    	<link rel="Shortcut Icon" href="http://www.carbonsilk.com/wp-content/themes/carbonsilk/favicon.ico" type="image/x-icon" />
+    	<link rel="pingback" href="http://www.carbonsilk.com/xmlrpc.php" />
+        	<link rel='archives' title='September 2008' href='http://www.carbonsilk.com/2008/09/' />
+	<link rel='archives' title='August 2008' href='http://www.carbonsilk.com/2008/08/' />
+	<link rel='archives' title='July 2008' href='http://www.carbonsilk.com/2008/07/' />
+	<link rel='archives' title='May 2008' href='http://www.carbonsilk.com/2008/05/' />
+	<link rel='archives' title='April 2008' href='http://www.carbonsilk.com/2008/04/' />
+
+	<link rel='archives' title='March 2008' href='http://www.carbonsilk.com/2008/03/' />
+	<link rel='archives' title='February 2008' href='http://www.carbonsilk.com/2008/02/' />
+    	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.carbonsilk.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.carbonsilk.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 2.5" />
+
+    </head>
+
+    <body>
+        <div id="header">
+            <h1><a href="http://www.carbonsilk.com/">Carbon Silk</a></h1>
+
+            <p class="subtitle">Developing Ideas by James Broad</p>
+        </div><!-- header -->
+
+        <div id="navigation">
+            <ul>
+                <li><a href="http://www.carbonsilk.com/">Home</a></li>
+                <li><a href="http://www.carbonsilk.com/about">About</a></li>
+                <li id="active"><a href="http://www.carbonsilk.com/2008">Archives</a></li>
+
+            </ul>
+        </div><!-- /navigation -->
+
+        <div id="container">
+            <div id="primaryContent">
+<div class="post" id="post-30">
+    <h2><a href="http://www.carbonsilk.com/development/moneyio-released/" rel="bookmark">Moneyio - The best salary calculator ever!</a></h2>
+	<div class="post-content">
+	    <p><a href="http://www.moneyio.co.uk"><img src="http://farm4.static.flickr.com/3264/2721426271_6420438665.jpg" alt="Moneyio.co.uk Screenshot" /></a></p>
+
+<p class="clear">On Monday (27 July 08) <a href="http://www.moneyio.co.uk">Moneyio</a> (Money In &amp; Out) was released. Moneyio is the latest incarnation of my previous project <a href="/efficiency/salary-calculator/">Salary Calculator</a>.</p>
+<p>Moneyio will be organically developed to include new relevant features with a strict focus on surfacing information on your money. The overall objective is to offer a best in class web based personal finance tool, suitable for everyone.</p>
+<p>Ok so you get what it is, how it works but what value does it give to you? The intention is that it can save you money. If that is through exposing where you could tighten up your expenses or offering you unobtrusive suggestions as to how you could make savings, then you can be satisfied.</p>
+<p>Design is (and will be) a critical factor in development of this application as there are a whole wealth of existing tools on the web to do with personal finance, however they always fail to offer any pleasing aesthetics.</p>
+<h3>Advertising</h3>
+
+<p>This tool has taken a long time to develop, and thus i have, for the first time, gone down the commercial route of adding advertising to try and benefit from this effort. This is a conscious decision that i feel should actually benefit users on the whole, owing to the smart, context aware, targeted adverts that appear. Should users find the adverts intrusive, i will not hesitate to remove or rethink the overall commercial strategy.</p>
+<h3>High performance</h3>
+<p>The inner workings behind the interface are pretty intricate. Take this and add that it is a completely dynamic application, it is hard to find components available to cache effectively. Inroads will be made with future development to ensure the experience of using the application is not hampered by having to wait for actions to be completed.</p>
+<p>Elements that will be performance enhanced will be caching data calculations, but more significantly, the <acronym title="Hyper Text Markup Language">HTML</acronym> and associated assets delivered to your browser.</p>
+<h3>Under the hood</h3>
+<p>I am proud to say Moneyio has been ported to use <a href="http://codeigniter.com/">CodeIgniter</a>. Originally the code-base took the form of a self rolled <acronym title="Pre Hypertext Preprocessor">PHP</acronym> <acronym title="Model View Controller"><a href="http://en.wikipedia.org/wiki/Model-view-controller">MVC</a></acronym> application, well organised, lean and efficient code but lacking some features and maybe not as rigid as an open source framework.</p>
+
+<p>A framework was a crucial requirement in ensuring that the application development could easily continue if say another developer had to maintain/own/extend the code-base.</p>
+<p>CodeIgniter was chosen over other popular frameworks such as the <a href="http://framework.zend.com/">ZendFramework</a>, <a href="http://cakephp.org/">CakePHP</a> or the now prevalent <a href="http://www.python.org/">Python</a> framework <a href="http://www.djangoproject.com/">Django</a>, as it was somewhat familiar, possesses great documentation.</p>
+<p>My experience so far has been great with working off this framework. Getting anything done becomes very trivial and a rewarding experience to boon.</p>
+
+<p>Front end wise, <a href="http://developer.yahoo.com/yui/">Yahoo YUI</a> has been used as the tool of choice for developing in JavaScript and using their fabulous CSS tools, <a href="http://code.google.com/apis/chart/">Google Charts</a> has been used for charting and the fantastic <a href="http://www.famfamfam.com/archive/silk-icons-thats-your-lot/">Fam Fam Fam silk icons</a> have been used for UI actions.</p>
+<p>I can only hope that you take a look at <a href="http://www.moneyio.co.uk">Moneyio</a>, if you like it, <a href="http://delicious.com/save?url=http://www.moneyio.co.uk&amp;title=Moneyio - Breaking Down Your Money">bookmark</a> it and return in a few weeks/months and see the latest changes.</p>
+
+    </div>
+        <div class="post-meta">
+        <ul>
+        <li><strong>Category:</strong> <a href="http://www.carbonsilk.com/category/development/" title="View all posts in development" rel="category tag">development</a></li>
+        <li><strong>Tags:</strong> <a href="http://www.carbonsilk.com/tag/application/" rel="tag">application</a>, <a href="http://www.carbonsilk.com/tag/framework/" rel="tag">framework</a>, <a href="http://www.carbonsilk.com/tag/moneyio/" rel="tag">moneyio</a>, <a href="http://www.carbonsilk.com/tag/performance/" rel="tag">performance</a>, <a href="http://www.carbonsilk.com/tag/salary/" rel="tag">salary</a></li>
+
+        <li><strong>Posted:</strong> August 1,  2008 @ 10:07 am<a href="http://www.carbonsilk.com/wp-admin/post.php?action=edit&amp;post=30" title="Edit post"> Edit This</a></li>
+		        <li><strong>Comments:</strong>  </li>
+        		</ul>
+    </div>
+    	
+	<div id="comments">
+
+    
+
+
+
+
+<div id="comment-list">
+    <h3>4 Comments</h3>
+    <ol>
+		    <li>
+            <ul class="comment" id="comment-169">                <li class="gravatar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=9a82b2c6ea3f01a1e2eed7c4d347bdea&amp;rating=R&amp;size=40&amp;default=http%3A%2F%2Fwww.carbonsilk.com%2Fwp-content%2Fuploads%2F2008%2F04%2Fdefault_gravatar.gif" alt="" /></li>
+                <li class="user"><a href='http://www.i-marco.nl/weblog/' rel='external nofollow'>Marco</a></li>
+                <li class="date">August 1, 2008 @ <a href="#comment-169">10:49 am</a></li>
+
+                <li class="content"><p>Very nice job James. Definitely something to be proud of. The design is very, very nice.</p>
+<p>A well executed one-purpose tool site. Now you just make sure you got the US version ready before I move to California <img src='http://www.carbonsilk.com/wp-includes/images/smilies/icon_razz.gif' alt=':P' class='wp-smiley' /></p>
+</li>
+            </ul>
+        </li>
+		    <li>
+            <ul class="comment" id="comment-175">                <li class="gravatar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=9cc31d9194f37675fac11c15c942fc71&amp;rating=R&amp;size=40&amp;default=http%3A%2F%2Fwww.carbonsilk.com%2Fwp-content%2Fuploads%2F2008%2F04%2Fdefault_gravatar.gif" alt="" /></li>
+                <li class="user"><a href='http://tristanbailey.blogspot.com' rel='external nofollow'>Tristan Bailey</a></li>
+
+                <li class="date">August 12, 2008 @ <a href="#comment-175">1:17 am</a></li>
+                <li class="content"><p>James looks nice, and export or save would be good. But the design is nice and tight and respect for using CI framework as I like that too for being nice and light.</p>
+</li>
+            </ul>
+        </li>
+		    <li>
+            <ul class="comment" id="comment-176">                <li class="gravatar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=2a99be715a3d350857c35779af443021&amp;rating=R&amp;size=40&amp;default=http%3A%2F%2Fwww.carbonsilk.com%2Fwp-content%2Fuploads%2F2008%2F04%2Fdefault_gravatar.gif" alt="" /></li>
+
+                <li class="user"><a href='http://www.carbonsilk.com' rel='external nofollow'>James Broad</a></li>
+                <li class="date">August 14, 2008 @ <a href="#comment-176">12:04 pm</a></li>
+                <li class="content"><p>@Marco, There should be a basic US version fairly soon, and thanks for the kind words.</p>
+<p>@Tristan, Thanks again, Code Igniter has served well, especially for getting things developed quickly.</p>
+</li>
+            </ul>
+        </li>
+
+		    <li>
+            <ul class="comment" id="comment-192">                <li class="gravatar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=c5bfdac405d2a5a7d4561d690693f42c&amp;rating=R&amp;size=40&amp;default=http%3A%2F%2Fwww.carbonsilk.com%2Fwp-content%2Fuploads%2F2008%2F04%2Fdefault_gravatar.gif" alt="" /></li>
+                <li class="user"><a href='http://www.p-xl.com' rel='external nofollow'>Maciej Ziehlke</a></li>
+                <li class="date">September 21, 2008 @ <a href="#comment-192">8:27 am</a></li>
+                <li class="content"><p>Nice work. Really like it (and use it few times to check my company accountant <img src='http://www.carbonsilk.com/wp-includes/images/smilies/icon_wink.gif' alt=';-)' class='wp-smiley' /><br />
+Reg. framweork - did you heard about KochanaPHP.com ? It&#8217;s new framweork basing on CI, but it&#8217;s build in PHP5. Didn&#8217;t used it yet,  but it looks interesting.</p>
+
+</li>
+            </ul>
+        </li>
+	    </ol>
+</div><!-- /#comment-list -->
+
+
+
+
+
+
+<div id="post-form">
+    <h3>Post your comment</h3>
+
+			<form action="http://www.carbonsilk.com/wp-comments-post.php" method="post" id="respond">
+					<p>Logged in as <a href="http://www.carbonsilk.com/wp-admin/profile.php">James Broad</a>. <a href="http://www.carbonsilk.com/wp-login.php?action=logout" title="Log out of this account">Logout &raquo;</a></p>
+				<p><small><strong>XHTML:</strong> You can use these tags: &lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </small></p>
+
+		<p><textarea name="comment" id="comment" rows="10" tabindex="4"></textarea></p>
+		<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+		<input type="hidden" name="comment_post_ID" value="30" /></p>
+		<input type="hidden" id="_wp_unfiltered_html_comment" name="_wp_unfiltered_html_comment" value="c0f8c1c89c" />		</form>
+	</div><!-- /#post-form -->
+</div><!-- /comments --></div><!-- /.post -->
+
+
+
+    	</div><!-- /primaryContent -->
+
+    
+		<!-- begin sidebar -->
+<div id="secondaryContent">
+    <h3>A bit about Carbon Silk</h3>
+    <p>Its a design/development centric site by James Broad, a London based web developer working at <a href="http://www.yahoo.com/" title="I do not act on behalf of Yahoo! through this or affiliated sites">Yahoo!</a>. I create compelling sites and applications for the web.</p>
+    
+    <h3>Categories</h3>
+	<ul>
+
+			<li class="cat-item cat-item-57"><a href="http://www.carbonsilk.com/category/conference/" title="View all posts filed under conference">conference</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.carbonsilk.com/category/design/" title="View all posts filed under design">design</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.carbonsilk.com/category/development/" title="View all posts filed under development">development</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="http://www.carbonsilk.com/category/efficiency/" title="View all posts filed under efficiency">efficiency</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="http://www.carbonsilk.com/category/inspiration/" title="View all posts filed under inspiration">inspiration</a>
+
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.carbonsilk.com/category/internet/" title="View all posts filed under internet">internet</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.carbonsilk.com/category/personal/" title="View all posts filed under personal">personal</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.carbonsilk.com/category/presentation/" title="View all posts filed under presentation">presentation</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://www.carbonsilk.com/category/productivity/" title="View all posts filed under productivity">productivity</a>
+</li>
+
+	</ul>
+
+    <h3>You may also like</h3>
+<ul>
+<li><a href="http://www.moneyio.co.uk">Moneyio - Salary and budget tool</a></li>
+</ul>
+    <h3>Social Stuff</h3>
+    <dl>
+        <dt>Email:</dt>
+
+        <dd><a href="mailto:jb@carbonsilk.com">jb@carbonsilk.com</a></dd>
+    </dl>
+    <dl>
+        <dt>Linked In:</dt>
+
+        <dd><a href="http://www.linkedin.com/in/jamesbroad">linkedin.com...</a></dd>
+    </dl>
+    <dl>
+
+        <dt>Twitter:</dt>
+        <dd><a href="http://twitter.com/kulor">twitter.com/kulor</a></dd>
+    </dl>
+    <dl>
+        <dt>Flickr:</dt>
+        <dd><a href="http://flickr.com/photos/kulor/">flickr.com/photos/kulor</a></dd>
+    </dl>
+
+    <dl>
+
+        <dt>Del.icio.us:</dt>
+        <dd><a href="http://del.icio.us/kulor">delicious.com/kulor</a></dd>
+    </dl>
+    <dl>
+        <dt>Dopplr:</dt>
+        <dd><a href="http://www.dopplr.com/traveller/kulor">dopplr.com/traveller/kulor</a></dd>
+
+    </dl>
+    <dl>
+        <dt>Facebook:</dt>
+        <dd><a href="http://www.facebook.com/profile.php?id=515394436">facebook.com/profile...</a></dd>
+    </dl>
+</div>
+<!-- end sidebar -->    </div><!-- container -->
+    
+    <div id="footer">
+
+        <ul>
+            <li id="copyright"><a href="http://www.carbonsilk.com/feed/" title="Subscribe to RSS">Subscribe</a> | Carbon Silk &copy; 2008 James Broad</li>
+            <li id="searchfield">
+                <form id="searchform" method="get" action="/index.php">
+        			<div>
+        				<label for="footer-search">Search:</label>
+
+        				<input type="text" name="s" id="footer-search" size="15" />
+        				<input type="submit" value="Search" id="search-submit" />
+        			</div>
+        		</form>
+            </li>
+        </ul>
+    </div><!-- /footer -->
+</body>
+</html>

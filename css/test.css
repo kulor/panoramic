@@ -1,0 +1,497 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+Title :   Mighty Template
+Author :  James Broad
+URL :     kulor.com
+
+Created : 01.06.2006 
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* ----- CSS ----- */
+body, html{
+    margin:0;
+    padding:0;
+    text-align:center;
+    margin-bottom:10px;
+    color:#333;
+}
+
+body{
+    width:850px;
+    margin:0 auto;
+    text-align:left;
+}
+
+a{
+    color:#D91C5C;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+#primaryContent a:visited,
+#secondaryContent a:visited
+{
+    font-style:italic;
+}
+
+strong{
+    background: #FFFFCC;/* #FFFFF8 */
+    font-weight:bold;
+}
+
+code{
+    font-size:1.1em;
+}
+
+ul.inline,
+ol.inline
+{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+    .inline li{
+        list-style:none;
+        margin:0;
+        padding:0;
+        display:inline;
+    }
+
+/* ----- HEADER ----- */
+    
+
+.subContainer, #navigation ul{
+}
+
+#header{
+    text-align:left;
+    margin:0;
+    margin-top:32px;
+    padding-top:33px;
+    border-top:4px solid #343434;
+}
+#header .subtitle{
+    font-size:0.65em;
+    margin-top:0.6em;
+}
+
+#banner{
+    margin:0;
+    padding:0;
+    padding-bottom:5px;
+}
+
+/* ----- NAVIGATION ----- */
+
+#navigation{
+    border-top:2px solid #343434;
+    margin:0;
+    margin-top:40px;
+    padding:0;
+    list-style:none;
+    
+}
+    #navigation li{
+        float:left;
+        clear:none;
+        list-style:none;
+        padding:0;
+        text-transform:lowercase;
+        font-size:0.74em;
+    }
+    #navigation li a{
+        display:block;
+        padding:13px 1.5em 9px 0.5em;
+        margin-right:2em;
+        width:4.5em;
+        text-decoration:none;
+        font-family:helvetica, arial, verdana, sans-serif;
+        color:#424242;
+    }
+    #navigation li a:hover{
+
+    }
+    #navigation li#active a{
+        color:#D91C5C;
+        font-weight:bold;
+        border-bottom:1px solid #000;
+    }
+
+/* ----- CONTENT CONTAINER ----- */
+
+#container{
+    border-top:1px solid #343434;
+    clear:both;
+    margin:10px auto;
+    *margin:0;
+    padding:0;
+    padding-top:49px;
+    *padding-top:24px;
+    text-align:left;
+    font-family:helvetica, arial, sans-serif;
+}
+    
+/* ----- HEADINGS ----- */
+h1{
+    margin:0;
+    padding:0;
+}
+h1 a{
+    display:block;
+    height:25px;
+    width:130px;
+    text-indent:-80000px;
+    background:url('images/logo.png') no-repeat;
+}
+
+h2{
+    margin-top:0;
+    margin-bottom:32px;
+    padding-bottom:9px;
+    color:#343434;
+    font-size:1.2em;
+    font-weight:normal;
+    font-family:Clarendon LT Std,Clarendon,Lucida Fax,Georgia,Helvetica,serif;
+    border-bottom:1px solid #e6e6e6;    
+    letter-spacing:-0.03em;
+    clear:both;
+}
+
+h2 a{
+    color:#343434;
+    text-decoration:none;
+}
+h2 a:hover{
+    text-decoration:underline;
+}
+#primaryContent h2 a:visited{
+    font-style:normal;
+}
+
+h3{
+    margin-top:16px;
+    margin-bottom:16px;
+    padding-bottom:7px;
+    color:#343434;
+    font-size:1em;
+    font-weight:normal;
+    font-family:Clarendon LT Std,Clarendon,Lucida Fax,Georgia,Helvetica,serif;
+    border-bottom:1px solid #e6e6e6;
+    letter-spacing:-0.03em;
+    clear:both;
+}
+
+h4{
+    margin:0.9em 0;
+    margin-bottom:1.2em;
+    color:#343434;
+    font-size:1em;
+    font-weight:normal;
+    font-family:Clarendon LT Std,Clarendon,Lucida Fax,Georgia,Helvetica,serif;
+    letter-spacing:-0.03em;
+    clear:both;
+}
+
+/* ----- POST ----- */
+
+.post{
+    margin-bottom:3em;
+}
+
+.post img{
+    float:left;
+    clear:none;
+    margin-right:1em;
+}
+
+.post ul,
+.post ol{
+    padding:1em;
+}
+
+.post-meta{
+    background:#FBFBFB;
+    border-top:1px solid #EDEDED;
+    border-bottom:1px solid #EDEDED;
+    clear:both;
+    padding:0.5em;
+    margin-top:2em;
+    font-size:0.9em;
+}
+
+#primaryContent .post-meta ul,
+.post-meta ul,
+.post-meta li{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.post-meta li{
+    display:block;
+}
+
+
+/* ----- PARAGRAPHS ----- */
+
+p, li{
+    line-height:1.9em;
+    font-size:0.75em;
+    font-family:'Lucida Grande', arial, sans-serif;
+}
+
+p{
+    margin-bottom:1em;
+}
+
+dl{
+    line-height:1.9em;
+    font-size:0.75em;
+}
+pre{
+    font-size:84%;
+}
+
+#primaryContent ul,
+#secondaryContent ul
+{
+    list-style-image:url('images/bullet.png');
+    padding-left:1em;
+    margin:15px 0;
+}
+
+li{
+    list-style-image:url('images/bullet.png');
+}
+
+#primaryContent img{
+    margin-bottom:25px;
+}
+#primaryContent li{}
+#secondaryContent p{}
+
+/* ----- FORMS ----- */
+
+input{
+    border: 1px solid #CCC;
+    padding: 3px;
+    width:160px;              
+}
+button{
+    border: 1px solid #CCC;
+    height:20px;
+    margin: 0;
+    padding: 0 5px;
+}
+form p{
+    padding:2px 0;
+}
+
+/* ----- IMAGES ----- */
+
+img{
+    border:0;
+}
+img a{
+    border:0;
+    text-decoration:none;
+}
+img a:hover{
+    border:none;
+}
+
+/* ----- CONTENT ----- */
+
+#primaryContent{
+    width:550px;
+    margin-right:28px;
+    float:left;
+    clear:none; 
+}
+
+#secondaryContent{
+    width:250px;
+    margin-bottom:2em;
+    float:right;
+    clear:none; 
+}
+#secondaryContent h2{
+    margin-bottom:0;
+    font-weight:normal;
+}
+#secondaryContent h3{
+    font-family:helvetica, arial, sans-serif;
+    font-size:70%;
+    font-weight:bold;
+    margin:1em 0;
+    padding:0;
+    padding:5px 0;
+}
+
+#secondaryContent dl{
+    border-bottom:1px dotted #ccc;
+    padding:0.5em 0;
+}
+
+#secondaryContent dt,
+#secondaryContent dd
+{
+    display:inline;
+}
+
+#secondaryContent li a{
+    text-decoration:none;
+}
+#secondaryContent li a:hover{
+    font-weight:bold;
+    text-decoration:underline;
+}
+#secondaryContent .links li{
+}
+
+/* ----- SPECIAL ACTIONS ----- */
+
+#pagination{
+    border-top:1px dotted #ccc;
+    padding-top:1em;
+    margin-bottom:2em;
+}
+#pagination a{
+    font-weight:bold;
+}
+
+
+/* ----- COMMENTS ----- */
+
+#comments{
+    /*border-top:1px solid #e6e6e6;*/
+    margin:1em 0;
+    padding:0;
+    padding-top:0.5em;
+}
+    #comments ol,
+    #comments ul,
+    #comments ol li{
+        margin:0;
+        padding:0;
+        list-style:none;
+    }
+    #comment-list{
+        margin-bottom:3em;
+    }
+    #comments .status{
+        margin-bottom:15px;
+        padding-bottom:0.5em;
+        border-bottom:1px solid #E6E6E6;
+    }
+        #comments .status li{
+            border-right:1px solid #919191;
+            margin-right:0.5em;
+            padding-right:0.5em;
+        }
+        #comments .status li.last{
+            border:none;
+            margin:0;
+            padding:0;
+        }
+        
+    #comments a{
+        /*font-weight:bold;*/
+        text-decoration:none; 
+    }
+    #comments a:hover{
+        text-decoration:underline; 
+    }
+    #comments .comment{
+        margin-bottom:1em;
+        padding:1em;
+        list-style:none;
+        position:relative;
+        border:1px dotted #ccc;
+    }
+    #comments .comment li{
+        list-style:none;
+        font-size:1em;
+    }
+        #comments .comment .metadata{
+
+        }
+
+        #comments .comment .date{
+            color:#666;
+        }
+        #comments .gravatar{
+            float:right;
+        }
+        #comments .comment li p{
+            font-size:1em;
+            margin-bottom:auto;
+        }
+        
+    #comments .meta-block{
+        margin-top:1em;
+    }
+    
+    #comments textarea{
+        width:100%;
+    }
+    
+    #comments #post-form{
+        /*border-top:1px dotted #ccc;*/
+    }
+    #comments img{
+        float:none;
+        margin:0;
+    }
+
+/* ----- FOOTER ----- */
+
+#footer{
+    margin:0;
+    margin-bottom:10px;
+    margin-top:1em;
+    padding:2.2em 0;
+    color:#919191;
+    clear:both;
+    text-align:left;
+    font-size:0.95em;
+    border-top:1px solid #afafaf;
+    border-bottom:1px solid #afafaf;
+    position:relative;
+    
+}
+    #footer ul{
+        list-style:none;    
+    }
+    #footer li{
+        vertical-align:center;
+        list-style:none;
+        position:absolute;
+        top:1.4em;
+    }
+    #footer #copyright{
+    }
+    #footer #links{
+    }
+    #footer #searchfield{
+        right:0;
+        top:1em;
+    }
+    
+    #search-submit{
+        width:4.5em;
+    }
+    
+    #footer a{
+        text-decoration:none;
+    }
+    #footer a:hover{
+        text-decoration:underline;
+    }
+
+/* ----- CLASSES ----- */
+
+.clear{
+    clear:both;
+}

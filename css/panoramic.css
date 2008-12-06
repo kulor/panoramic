@@ -1,0 +1,231 @@
+html{
+	background:#2C5F98;
+}
+body{
+	height:100%;
+	background:#2C5F98 url('../images/interface/gradient.gif') repeat-x top;
+}
+
+
+#bd{
+   clear:both;
+   background:#fff no-repeat top left;
+}
+
+#bd p{
+	font-size:0.9em;
+	line-height:1.7em;
+	margin-bottom:1.7em;
+}
+
+h1{
+   color:#ff6c00;
+   font-size:1.2em;
+   margin-bottom:1em;
+}
+
+h2{
+   color:#ff6c00;
+   font-size:1.5em;
+   margin-bottom:1em;
+}
+
+h3{
+	font-weight:bold;
+	font-size:92%;
+	padding:1em 0 0.5em;
+	margin-bottom:1em;
+	border-bottom:1px solid #f1f1f1;
+}
+
+strong{
+	font-weight:bold;
+}
+
+em{
+	font-style:italic;
+}
+
+#bd a{
+	color:#2C5F98;
+}
+#bd a:visited{
+	color:#091D46;
+}
+
+#bd ul{
+	padding-left:15px;
+}
+#bd ul li{
+	margin-bottom:5px;
+}
+	#bd ul,
+	#bd ul li
+	{
+		list-style-type:circle;
+	}
+
+#content img{
+	float:left;
+	margin-right:15px;
+	margin-bottom:15px;
+}
+
+#hd{
+   padding:3em 0 0 0;
+   background:url('../images/interface/clouds.jpg') no-repeat right top;
+}
+
+#content{
+	padding:3em;
+}
+
+#extra-info{
+	padding:3em;
+	padding-left:0;
+}
+#extra-info h2,
+#extra-info h3
+{
+	color:#5F5F5F;
+}
+#extra-info ul{
+	margin-bottom:1em;
+}   
+/**
+ * Site nav is a DIV that holds the ul.
+ *
+ * Why? for allowing horizontal scale for the background gradient
+ */
+#nav{
+   margin:48px 0 10px 0;
+   background:url('../images/interface/navigation-bg.gif') repeat-x;
+}
+   #nav ul{
+      list-style:none;
+      margin:0;
+      padding:0;
+      min-height:34px;
+   }
+   #nav a{
+      color:#fff;
+      font-weight:normal;
+      text-decoration:none;
+      font-size:0.9em;
+   }
+   #nav a:hover{
+      text-decoration:underline;
+   }
+      #nav li.selected a{
+         font-weight:bold;
+      }
+   #nav li{
+      margin:0;
+      padding:0;
+      margin:8px 20px;
+      clear:none;
+      float:left;
+	font-size:91%;
+   }
+
+   #ft{
+	color:#fff;
+      font-size:0.9em;
+      margin:10px 0;
+   }
+      #ft a{
+         color:#fff;
+      }
+      #ft ul{
+         list-style:none;
+         margin:0;
+         padding:0
+      }
+         #ft li{
+            color:#fff;
+            display:inline;
+         }
+
+
+		/* ----- COMMENTS ----- */
+
+		#comments{
+		    /*border-top:1px solid #e6e6e6;*/
+		    margin:1em 0;
+		    padding:0;
+		    padding-top:0.5em;
+		}
+		    #comments ol,
+		    #comments ul,
+		    #comments ol li{
+		        margin:0;
+		        padding:0;
+		        list-style:none;
+		    }
+		    #comment-list{
+		        margin-bottom:3em;
+		    }
+		    #comments .status{
+		        margin-bottom:15px;
+		        padding-bottom:0.5em;
+		        border-bottom:1px solid #E6E6E6;
+		    }
+		        #comments .status li{
+		            border-right:1px solid #919191;
+		            margin-right:0.5em;
+		            padding-right:0.5em;
+		        }
+		        #comments .status li.last{
+		            border:none;
+		            margin:0;
+		            padding:0;
+		        }
+
+		    #comments a{
+		        /*font-weight:bold;*/
+		        text-decoration:none; 
+		    }
+		    #comments a:hover{
+		        text-decoration:underline; 
+		    }
+		    #comments .comment{
+		        margin-bottom:1em;
+		        padding:1em;
+		        list-style:none;
+		        position:relative;
+		        border:1px dotted #ccc;
+		    }
+		    #comments .comment li{
+		        list-style:none;
+		        font-size:1em;
+		    }
+		        #comments .comment .metadata{
+
+		        }
+
+		        #comments .comment .date{
+		            color:#666;
+		        }
+		        #comments .gravatar{
+		            float:right;
+		        }
+		        #comments .comment li p{
+		            font-size:1em;
+		            margin-bottom:auto;
+		        }
+
+		    #comments .meta-block{
+		        margin-top:1em;
+		    }
+
+		    #comments textarea{
+		        width:100%;
+		    }
+
+		    #comments #post-form{
+		        /*border-top:1px dotted #ccc;*/
+		    }
+		    #comments img{
+		        float:none;
+		        margin:0;
+		    }
